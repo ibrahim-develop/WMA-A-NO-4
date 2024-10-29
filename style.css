@@ -1,0 +1,179 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* nav___bar */
+.navbar {
+  width: 100%;
+  height: 60px;
+  background-color: #292828;
+  border-bottom: 1px solid #fff;
+  align-items: center;
+  position: sticky;
+  display: flex;
+}
+nav {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  margin-left: 25%;
+  justify-content: space-between;
+}
+.logo  {
+  width: 100px;
+  height: 50px;
+
+}
+.logo img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  cursor: pointer;
+}
+nav ul li {
+  color: #fff;
+  display: inline;
+  padding-left: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+nav select {
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 20px;
+}
+nav select option {
+  color: black;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+nav i {
+  color:  #fff;
+  padding-left: 20px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+nav li:hover:after{
+  content: '';
+  width:50px;
+  height: 2px;
+  background-color: red;
+  position: absolute;
+  bottom: 12px;
+  margin-left:-50px;
+  transition: all 0.2s ease-in;
+}
+ nav li:hover {
+  color: aqua;
+}
+nav i:hover {
+  color: aqua;
+}
+/* section___no___1 */
+.sec_1 {
+  width: 100%;
+  height: 400px;
+  background-color:#292828;
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+.main {
+  width: 50%;
+  height: 100%;
+  background-color: #292828;
+  position: absolute;
+}
+.main h1 {
+  font-size: 60px;
+  font-weight: 500;
+  padding-top: 70px;
+  
+}
+.profile{
+  margin-top: 60px;
+  margin-left: 50px;
+}
+.profile .name::before {
+  content: '';
+width: 50px;
+height: 50px;
+background-image: url(https://media.istockphoto.com/id/1386479313/photo/happy-millennial-afro-american-business-woman-posing-isolated-on-white.webp?a=1&b=1&s=612x612&w=0&k=20&c=OnzQRmrTWj779-DI4_aEykdTKuwL-Ubphs1cdQ3tyxE=);
+position: absolute;
+background-size: cover;
+border-radius: 50%;
+margin-left: -60px;
+margin-top: -15px;
+}
+.main .profile a {
+  padding-left: 10px;
+
+}
+/* section___2 */
+.sec_2 {
+  width: 100%;
+  height: 300px;
+  margin-top: 20px;
+}
+.section__image {
+  width: 50%;
+  height: 400px;
+  margin-left: 25%;
+}
+.section__image img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.sec_2 ul {
+  margin-left: 25%;
+}
+.sec_2 ul li {
+  list-style: none;
+  display: inline;
+  padding-right: 10px;
+}
+/* section___3 */
+.sec_3 {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 180px;
+
+}
+.about {
+  width: 50%;
+  height: 100%;
+  
+}
+.sec_3 h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+.sec_3 p {
+  font-size: 25px;
+}
+/* footer____section */
+footer {
+  width: 100%;
+  height: 400px;
+  background-color: #292828;
+  margin-top: 300px;
+}
+footer ul {
+  display: inline;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
